@@ -1,0 +1,55 @@
+<!--
+	Vie et mort d'un monstre
+	@author       : Étienne André et al.
+	Created       : < 2020
+	Last modified : 2023/02/13
+-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+      <title>Vie et mort d'un monstre</title>
+      <link rel="stylesheet" href="css/monsterV2.css">
+   </head>
+
+   <body>
+      <h1>Vie et mort d’un monstre</h1>
+      <!--monstre à choisir-->
+      <button id="monster1"><img src=image/Bob.png>Bob</button>
+      <button id="monster2"><img src=image/Scruffy.png>Scruffy</button>
+      <button id="monster3"><img src=image/Clinton.png>Clinton</button>
+        <br>
+      <div id="boitemonster" class="monster">
+         <p id="monster">Monster<br><img src=image/questionMark.png id="image"></p>
+      </div>
+
+      <div id="actionbox" class="monster">
+         <p>Monster life log</p>
+      </div>
+
+      <br>
+      <ul id="statut">
+         <li>Vie : 0</li>
+         <li>Argent : 0</li>
+         <li>Energie : 0</li>
+         <li>Joie : 0</li>
+         <li>Éveillé</li>
+      </ul>
+      
+      <button id="run" class="action">Run</button>
+      <button id="fight" class="action">Fight</button>
+      <button id="work" class="action">Work</button>
+      <button id="sleep" class="action">Sleep</button>
+      <button id="eat" class="action">Eat</button>
+      <button id="heal" class="action">Heal</button>
+      <button id="play" class="action">Play</button>
+      <button id="show" class="action">Show</button>
+
+      <hr>
+
+      <button id="new" class="action">New life</button>
+      <button id="kill" class="action">Kill</button>
+
+      <script src="js/monsterV2.js"></script>
+   </body>
+</html>

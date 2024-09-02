@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+}
+h1:hover {
+    transition: 1s;
+    color : #6d8a79;
+}
+body, html{
+    height         : 100%;
+}
+body {
+
+    background-repeat   : no-repeat;
+    background-color    : rgb(31, 28, 40);
+    background-size     : cover;
+    background-image    : url("image/fond-de-jeu-pixel-99878268.jpg");
+}
+
+.monster {
+    display         : inline-block;
+    vertical-align  : top;
+    height          : 100px;
+    margin-left     : 50px;
+
+}
+#boitemonster {
+    width               : 200px;
+    height              : 200px;
+    margin-bottom       : 1em;
+    margin-top          : 2em; 
+}
+#monster {
+    margin              : auto;
+    position            : relative;
+    left                : 40%;
+    border-radius       : 5px;
+    background-color    : green;
+    border              : black;
+    border-width        : 20px;
+    width               : 200px;
+    height              : 200px;
+    text-align          : center;
+}
+#actionbox {
+    margin-top      : 2em;
+    border          : 2px solid grey;
+    width           : 50%;
+    height          : 200px;
+    overflow        : auto;
+    background-color: aliceblue;
+    margin-right    : 2em;
+    float           : right;
+}
+
+#actionbox > p {
+    margin      : 0;
+}
+
+ul#statut {
+    display         : flex;
+    flex-direction  : row;
+    list-style      : none;
+    margin          : 0;
+    padding         : 0;
+}
+
+ul#statut li {
+    margin-left : 20px;
+}
+
+.action {
+    border-radius       : 100%;
+    width               : 45px;
+    height              : 45px;
+    background-color    : rgb(109, 164, 135);
+    border              : 0;
+    margin              : 8px;
+}
+
+button:hover {
+    background-color : rgb(38, 109, 81);
+}
+
+img {
+    width  : 100px;
+    height : 100px;
+}
+#image {
+    width  : 180px;
+    height : 180px;
+}
+#kill, #new {
+    width               : 60px;
+    height              : 40px;
+}
+
+#monster1, #monster2, #monster3 {
+    position    : relative;
+    left        : 30%;
+}
